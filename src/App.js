@@ -15,7 +15,7 @@ function App() {
       setOutput(fizz_buzzator(input))
   }
   const validatePlage = () =>{
-    if(max-min<0 || max-min>1000)return [];
+    if((!max&&max!==0) || (!min&&min!==0) || max-min<0 || max-min>1000)return [];
     setOutputPlage(Array(max-min+1).fill().map((value,index)=>{
         value=parseInt(min)+index;
         return {num:value,res:fizz_buzzator(value)}
