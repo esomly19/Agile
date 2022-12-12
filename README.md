@@ -7,14 +7,20 @@ Agile Module - Fizzzz Buzator Project
 
 ## Conecpt of the project 
 
-A user enters a number in the text field, then presses the "Calculate" button or presses "Enter". 
+A user enters a number in the text field, then presses the "Validate" button or presses "Enter" on keyboard. 
 
 Algorithm checks that the user has entered a number, then checks that the number entered is divisible by 3 and/or divisible by 5. 
 
-* If the number is divisible by 3: the return will be "Fizzzz".
-* If the number is divisible by 5: the return will be "Buz".
-* If the number is divisible by 3 and 5: the return will be "Fizzzz buz".
-* If the number is not divisible by 3 and 5: the return will be the number entered
+* <u>If the number is divisible by 3 : </u> the return will be "Fizzzz".
+* <u>If the number is divisible by 5 : </u> the return will be "Buz".
+* <u>If the number is divisible by 3 and 5 : </u> the return will be "Fizzzz buz".
+* <u>If the number is not divisible by 3 and 5 : </u> the return will be the number entered
+
+### Range mode
+
+It is possible to enter a range of values, activating the "range mode". Please enter the minimum and then the maximum number. Then validate, either by pressing the "Validate" button or by pressing the "Enter" button.
+
+The automaton will calculate, as before. Disclamer: If the range exceeds 1000 numbers then it will not work. 
 
 
 ## Available Scripts
@@ -23,7 +29,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-First of all, you have to download the packages 
+First of all, you have to download the packages. 
 
 ### `npm start`
 
