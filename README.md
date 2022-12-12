@@ -2,9 +2,28 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Agile
+Agile Module - Fizzzz Buzator Project
+
+## Conecpt of the project 
+
+A user enters a number in the text field, then presses the "Calculate" button or presses "Enter". 
+
+Algorithm checks that the user has entered a number, then checks that the number entered is divisible by 3 and/or divisible by 5. 
+
+* If the number is divisible by 3: the return will be "Fizzzz".
+* If the number is divisible by 5: the return will be "Buz".
+* If the number is divisible by 3 and 5: the return will be "Fizzzz buz".
+* If the number is not divisible by 3 and 5: the return will be the number entered
+
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+First of all, you have to download the packages 
 
 ### `npm start`
 
