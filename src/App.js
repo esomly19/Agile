@@ -29,7 +29,10 @@ function App() {
   }
 
   const handleKeyDown = event => {
-      if(event.key==="Enter")validate();
+      if(event.key==="Enter"){
+          if(!mode)validate()
+          else validatePlage();
+      }
   };
 
   return (
